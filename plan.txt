@@ -1,0 +1,17 @@
+1. Cover middleware on board
+
+1a. talk about difference between app level middleware and route level middleware
+1b. talk about custom middleware vs package middleware
+
+2. Show a few examples of middleware in application
+2a. show bodyparser as being middleware
+2b. show custom middlware function
+2c. Show what happens when you don't call next e.x middlware makes a call to an api. This is async and express has no way to know when that api call returns data. This is why we explicity call next. To let Express know it can continue on to the next function in the chain
+
+3. talk about sessions on board
+3a. talk about difference between a cookie and a session
+
+4. Show a few examples of using middleware to access session
+4a. use postman to hit routes and log out things
+
+5. move on to mini? Or ask if they want to do the mini themselves
